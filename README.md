@@ -72,6 +72,7 @@ Mit Ausnahme der Standorte von Umspannwerken und der Hochwasserschutzgebiete HQ1
 
 Die Standorte der Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Hochwassergebiete steht hingegen keine moderne API-Schnittstelle zur Verfügung. Diese Daten werden daher lokal auf einem Server vorgehalten und vom Programm automatisch für das jeweilige Untersuchungsgebiet zugeschnitten.
 
+Hier SOLLTE BILD STEHEN!
 
 ![MarineGEO circle logo](C:\Users\morit\OneDrive\Dokumente\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\Bild_Raster.png "MarineGEO logo")
 
