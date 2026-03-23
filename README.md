@@ -95,7 +95,7 @@ Dabei wird sichtbar, dass sich geeignete und weniger geeignete Bereiche nicht gl
 
 
 
-<img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" alt="Dies ist beschreibung" width="480">
+<img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" title="Das müsste beim drübergehen kommen." alt="Dies ist beschreibung" width="480">
 *Abbildung 3: Karte mit html.*
 
 
