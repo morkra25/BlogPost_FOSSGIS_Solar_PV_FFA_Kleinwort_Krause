@@ -17,7 +17,8 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 
 Hier SOLLTE BILD STEHEN! ODERR??? NEUES BILD RASTER!
 
-![Alt text](https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/Bild_Raster.png)
+![Alt text](https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/Bild_Raster.png "a title")
+
 
 
 Hier dann das lokale
