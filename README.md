@@ -103,7 +103,7 @@ Dabei wird sichtbar, dass sich geeignete und weniger geeignete Bereiche nicht gl
 
 
 
-![Das ist die Karte](../images/karte.jpg "Das ist eine Karte")
+![Das ist die Karte](../images/karte.jpg?raw=true "Das ist eine Karte")
 *Abbildung 3: Karte mit Pfad.*
 
 
