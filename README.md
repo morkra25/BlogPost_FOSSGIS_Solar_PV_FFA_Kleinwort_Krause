@@ -1,5 +1,7 @@
 # Automatisierte Standortsuche für Freiflächen-PV
 
+# JETZT ABER
+
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist.
 
 Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern.
@@ -11,6 +13,12 @@ Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. 
 Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
 
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
+
+
+Hier SOLLTE BILD STEHEN! ODERR???
+
+![MarineGEO circle logo](C:\Users\morit\OneDrive\Dokumente\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\Bild_Raster.png "MarineGEO logo")
+
 
 ---
 
@@ -72,9 +80,6 @@ Mit Ausnahme der Standorte von Umspannwerken und der Hochwasserschutzgebiete HQ1
 
 Die Standorte der Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Hochwassergebiete steht hingegen keine moderne API-Schnittstelle zur Verfügung. Diese Daten werden daher lokal auf einem Server vorgehalten und vom Programm automatisch für das jeweilige Untersuchungsgebiet zugeschnitten.
 
-Hier SOLLTE BILD STEHEN! ODERR???
-
-![MarineGEO circle logo](C:\Users\morit\OneDrive\Dokumente\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\Bild_Raster.png "MarineGEO logo")
 
 ---
 
