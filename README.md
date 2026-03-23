@@ -1,7 +1,5 @@
 # Automatisierte Standortsuche für Freiflächen-PV
 
-# JPG fixed mit raw nochmal
-
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
 Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern.
@@ -15,16 +13,9 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
 
 
-Hier SOLLTE BILD STEHEN! ODERR??? NEUES BILD RASTER! Das ist jetzt jpg aber fixed
 
-![Alt text now_fixed](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/Bild_Raster.png "a title neu")
-
-
-
-Hier dann das lokale
-![Alt text](C:\Users\morit\OneDrive\Dokumente\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\images\Bild_Raster.png)
-
-
+![Alt text now_fixed](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/Bild2.jpg "Das ist ein Bild")
+*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen.*
 
 
 
