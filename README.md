@@ -99,11 +99,7 @@ Dabei wird sichtbar, dass sich geeignete und weniger geeignete Bereiche nicht gl
 *Abbildung 2: Karte.*
 
 
-
-
-
-
-![Das ist die Karte](https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true "Das ist eine Karte")
+<img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" width="48">
 *Abbildung 3: Karte mit Pfad, aber alternativ.*
 
 
