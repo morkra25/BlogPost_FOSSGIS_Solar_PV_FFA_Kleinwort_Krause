@@ -95,12 +95,8 @@ Dabei wird sichtbar, dass sich geeignete und weniger geeignete Bereiche nicht gl
 
 
 
-![Das ist die Karte](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/karte.jpg | width=40)
-*Abbildung 2: Karte.*
-
-
-<img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" width="480">
-*Abbildung 3: Karte mit Pfad, aber alternativ.*
+<img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" alt="Dies ist beschreibung" width="480">
+*Abbildung 3: Karte mit html.*
 
 
 ### 2. Einfluss einzelner Kriterien
