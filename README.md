@@ -95,7 +95,7 @@ Dabei wird sichtbar, dass sich geeignete und weniger geeignete Bereiche nicht gl
 
 
 
-![Das ist die Karte](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/karte.jpg "Das ist eine Karte")
+![Das ist die Karte](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/karte.jpg "Das ist eine Karte" =250x250)
 *Abbildung 2: Karte.*
 
 
