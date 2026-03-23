@@ -103,8 +103,8 @@ Dabei wird sichtbar, dass sich geeignete und weniger geeignete Bereiche nicht gl
 
 
 
-![Das ist die Karte](../images/karte.jpg?raw=true "Das ist eine Karte")
-*Abbildung 3: Karte mit Pfad.*
+![Das ist die Karte](https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true "Das ist eine Karte")
+*Abbildung 3: Karte mit Pfad, aber alternativ.*
 
 
 ### 2. Einfluss einzelner Kriterien
