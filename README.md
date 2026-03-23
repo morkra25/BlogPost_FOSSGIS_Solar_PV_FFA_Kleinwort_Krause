@@ -1,6 +1,6 @@
 # Automatisierte Standortsuche für Freiflächen-PV
 
-# JETZT ABER
+# JETZT ABER - HALLOO
 
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist.
 
@@ -17,7 +17,13 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 
 Hier SOLLTE BILD STEHEN! ODERR??? NEUES BILD RASTER!
 
+![Alt text](https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/Bild_Raster.png)
+
+
+Hier dann das lokale
 ![Alt text](C:\Users\morit\OneDrive\Dokumente\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\images\Bild_Raster.png)
+
+
 
 
 
