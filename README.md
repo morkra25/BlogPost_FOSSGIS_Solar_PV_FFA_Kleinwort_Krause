@@ -1,8 +1,8 @@
 # Automatisierte Standortsuche für Freiflächen-PV
 
-# JETZT ABER - HALLOO
+# JPG
 
-## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist.
+## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
 Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern.
 
