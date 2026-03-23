@@ -1,6 +1,6 @@
 # Automatisierte Standortsuche für Freiflächen-PV
 
-# JPG mit Punkten
+# JPG fixed
 
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
@@ -15,9 +15,9 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
 
 
-Hier SOLLTE BILD STEHEN! ODERR??? NEUES BILD RASTER! Das ist jetzt jpg
+Hier SOLLTE BILD STEHEN! ODERR??? NEUES BILD RASTER! Das ist jetzt jpg aber fixed
 
-![Alt text jpg_mit_zwei_ppunktem](../Bild2.jpg "a title")
+![Alt text jpg_mit_zwei_ppunktem]((https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/main/Bild2.jpg?raw=true) "a title")
 
 
 
