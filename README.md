@@ -17,7 +17,8 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 
 Hier SOLLTE BILD STEHEN! ODERR???
 
-![MarineGEO circle logo](C:\Users\morit\OneDrive\Dokumente\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\Bild_Raster.png "MarineGEO logo")
+![Alt text](C:\Users\morit\OneDrive\Dokumente\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause\images\Bild_Raster.png)
+
 
 
 ---
