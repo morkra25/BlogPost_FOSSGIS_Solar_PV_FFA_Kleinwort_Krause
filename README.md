@@ -14,7 +14,7 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 
 
 
-![Alt text now_fixed](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/Bild2.jpg "Das ist ein Bild")
+![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
 *Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen.*
 
 
@@ -91,6 +91,21 @@ Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplar
 Die erste Karte zeigt die flächendeckende Eignungsbewertung auf Pixelebene.
 
 Dabei wird sichtbar, dass sich geeignete und weniger geeignete Bereiche nicht gleichmäßig über den Raum verteilen, sondern kleinräumig stark unterscheiden. Besonders gut bewertete Bereiche liegen dort, wo mehrere günstige Faktoren zusammenkommen – etwa ein hohes Solarpotenzial, geringe Hangneigung und die Nähe zu bestehender Infrastruktur. Gleichzeitig zeichnen sich auch Bereiche ab, die trotz landwirtschaftlicher Nutzung aufgrund ungünstiger Rahmenbedingungen schlechter abschneiden.
+
+
+
+
+![Das ist die Karte](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/karte.jpg "Das ist eine Karte")
+*Abbildung 2: Karte.*
+
+
+
+
+
+
+![Das ist die Karte](../images/karte.jpg "Das ist eine Karte")
+*Abbildung 3: Karte mit Pfad.*
+
 
 ### 2. Einfluss einzelner Kriterien
 
