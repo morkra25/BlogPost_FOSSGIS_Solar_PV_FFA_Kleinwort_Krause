@@ -11,9 +11,8 @@ Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. 
 Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
 
 <div style='text-align: justify;'>
-  Some very long text here.
-  The text must span multiple lines in order to demonstrate that this works.
-  bobbyhadz.com
+  Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch 
+  identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
 </div>
 
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
