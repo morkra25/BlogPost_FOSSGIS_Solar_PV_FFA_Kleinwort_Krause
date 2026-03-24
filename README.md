@@ -140,3 +140,13 @@ Besonders gelernt haben wir, wie wichtig die saubere Zusammenführung unterschie
 Trotzdem gibt es auch Grenzen. Datenqualität und Datenverfügbarkeit können regional variieren, und bisher bieten nur sehr wenige Bundesländer passende API-Schnittstellen für ihre Daten an. Außerdem sind Gewichtungen nie völlig neutral, und eine automatisierte Analyse kann die lokale Detailprüfung vor Ort nicht vollständig ersetzen. Der Workflow liefert also keine fertige Planungsentscheidung, sondern eine fundierte Grundlage für weitere Prüfungen.
 
 Für die nächsten Schritte gibt es mehrere Erweiterungsmöglichkeiten. So könnte das Solarpotenzial künftig noch stärker an die Umgebung angepasst werden, etwa durch einen differenzierten „Smog-Faktor“ oder zusätzliche Informationen zur Wolkenbildung. Auch weitere Kriterien, etwa Moorflächen mit Wiedervernässungspotenzial, könnten integriert werden. Darüber hinaus bietet der Ansatz Potenzial, um künftig auch Fragestellungen rund um Agri-PV in den Workflow einzubeziehen.
+
+
+
+# *Literature*
+Umweltbundesamt. (2023). Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz
+UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).
+BUNDESNETZAGENTUR (2026a): Ausbau erneuerbarer Energien 2025. https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260108_EEG.html (24.03.2026).
+BUNDESNETZAGENTUR (2026b): Bundesnetzagentur ver­öf­fent­licht Da­ten zum Strom­markt 2025. https://www.bundesnetzagentur.de/1087156 (24.03.2026).
+UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).
+UMWELTBUNDESAMT (UBA) (2025): Photovoltaik-Freiflächenanlagen. https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/photovoltaik/photovoltaik-freiflaechenanlagen (24.03.2026).
