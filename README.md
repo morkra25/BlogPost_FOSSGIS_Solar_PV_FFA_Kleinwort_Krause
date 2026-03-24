@@ -19,7 +19,7 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
 
 ![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
-*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematisch Darstellung)*
+*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
 
 ---
 
