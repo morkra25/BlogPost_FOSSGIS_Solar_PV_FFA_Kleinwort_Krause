@@ -2,13 +2,19 @@
 
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
-> Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern.
->
-> Der Ausbau der Photovoltaik ist ein zentraler Baustein der Energiewende in Deutschland. Ende 2025 waren bundesweit rund 119 GW PV-Leistung installiert; im Jahr 2025 erzeugte Photovoltaik etwa 91 TWh Strom und deckte damit knapp 18 % des Bruttoinlandsstromverbrauchs. Gleichzeitig sieht das EEG bis 2030 ein Ausbauziel von 215 GW vor, sodass in den kommenden Jahren ein weiterer deutlicher Ausbau notwendig ist.
->
-> Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. Ende 2024 waren in Deutschland bereits etwa 45.000 ha mit Photovoltaik-Freiflächenanlagen belegt, davon rund 15.200 ha auf Ackerflächen. Trotz eines bundesweiten Flächenanteils von nur etwa 0,1 % zeigt sich, dass der Ausbau nicht konfliktfrei ist, da landwirtschaftliche Nutzung, Energieproduktion, Naturschutz und planerische Vorgaben miteinander konkurrieren.
->
-> Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
+Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern.
+
+Der Ausbau der Photovoltaik ist ein zentraler Baustein der Energiewende in Deutschland. Ende 2025 waren bundesweit rund 119 GW PV-Leistung installiert; im Jahr 2025 erzeugte Photovoltaik etwa 91 TWh Strom und deckte damit knapp 18 % des Bruttoinlandsstromverbrauchs. Gleichzeitig sieht das EEG bis 2030 ein Ausbauziel von 215 GW vor, sodass in den kommenden Jahren ein weiterer deutlicher Ausbau notwendig ist.
+
+Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. Ende 2024 waren in Deutschland bereits etwa 45.000 ha mit Photovoltaik-Freiflächenanlagen belegt, davon rund 15.200 ha auf Ackerflächen. Trotz eines bundesweiten Flächenanteils von nur etwa 0,1 % zeigt sich, dass der Ausbau nicht konfliktfrei ist, da landwirtschaftliche Nutzung, Energieproduktion, Naturschutz und planerische Vorgaben miteinander konkurrieren.
+
+Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
+
+<div style='text-align: justify;'>
+  Some very long text here.
+  The text must span multiple lines in order to demonstrate that this works.
+  bobbyhadz.com
+</div>
 
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
 
