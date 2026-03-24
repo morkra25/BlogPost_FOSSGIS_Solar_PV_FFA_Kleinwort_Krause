@@ -2,27 +2,26 @@
 
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
-Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern.
-
-Der Ausbau der Photovoltaik ist ein zentraler Baustein der Energiewende in Deutschland. Ende 2025 waren bundesweit rund 119 GW PV-Leistung installiert; im Jahr 2025 erzeugte Photovoltaik etwa 91 TWh Strom und deckte damit knapp 18 % des Bruttoinlandsstromverbrauchs. Gleichzeitig sieht das EEG bis 2030 ein Ausbauziel von 215 GW vor, sodass in den kommenden Jahren ein weiterer deutlicher Ausbau notwendig ist.
-
-Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. Ende 2024 waren in Deutschland bereits etwa 45.000 ha mit Photovoltaik-Freiflächenanlagen belegt, davon rund 15.200 ha auf Ackerflächen. Trotz eines bundesweiten Flächenanteils von nur etwa 0,1 % zeigt sich, dass der Ausbau nicht konfliktfrei ist, da landwirtschaftliche Nutzung, Energieproduktion, Naturschutz und planerische Vorgaben miteinander konkurrieren.
-
->Hier block?: Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
->
 <div style='text-align: justify;'>
-  Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch 
-  identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
+  Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern.
+</div>
+
+<div style='text-align: justify;'>
+  Der Ausbau der Photovoltaik ist ein zentraler Baustein der Energiewende in Deutschland. Ende 2025 waren bundesweit rund 119 GW PV-Leistung installiert; im Jahr 2025 erzeugte Photovoltaik etwa 91 TWh Strom und deckte damit knapp 18 % des Bruttoinlandsstromverbrauchs. Gleichzeitig sieht das EEG bis 2030 ein Ausbauziel von 215 GW vor, sodass in den kommenden Jahren ein weiterer deutlicher Ausbau notwendig ist.
+</div>
+
+<div style='text-align: justify;'>
+  Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. Ende 2024 waren in Deutschland bereits etwa 45.000 ha mit Photovoltaik-Freiflächenanlagen belegt, davon rund 15.200 ha auf Ackerflächen. Trotz eines bundesweiten Flächenanteils von nur etwa 0,1 % zeigt sich, dass der Ausbau nicht konfliktfrei ist, da landwirtschaftliche Nutzung, Energieproduktion, Naturschutz und planerische Vorgaben miteinander konkurrieren.
+</div>
+
+<div style='text-align: justify;'>
+  Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ihres Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete landwirtschaftliche Flächen für Freiflächen-PV systematisch identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und transparent Planungs- und Entscheidungsprozesse unterstützen kann.
 </div>
 
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
 
-
-
 ![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
 *Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen.*
-
-
 
 ---
 
@@ -30,11 +29,17 @@ Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. 
 
 ### Vom Geodatensatz zur Eignungsbewertung
 
-Am Anfang stand die Frage, wie sich aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen ableiten lässt. Denn kein einzelner Datensatz kann allein beantworten, ob sich eine Fläche für Freiflächen-PV eignet. Erst im Zusammenspiel verschiedener Informationen wird sichtbar, welche Flächen grundsätzlich infrage kommen und welche aufgrund bestimmter Rahmenbedingungen ausgeschlossen oder schlechter bewertet werden sollten.
+<div style='text-align: justify;'>
+  Am Anfang stand die Frage, wie sich aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen ableiten lässt. Denn kein einzelner Datensatz kann allein beantworten, ob sich eine Fläche für Freiflächen-PV eignet. Erst im Zusammenspiel verschiedener Informationen wird sichtbar, welche Flächen grundsätzlich infrage kommen und welche aufgrund bestimmter Rahmenbedingungen ausgeschlossen oder schlechter bewertet werden sollten.
+</div>
 
-Um diese unterschiedlichen Einflussfaktoren systematisch zusammenzuführen, haben wir mit einer **Multikriterienanalyse (MCDA)** gearbeitet. Dieser Ansatz eignet sich besonders dann, wenn mehrere räumliche Kriterien gleichzeitig berücksichtigt und zu einer gemeinsamen Bewertung zusammengeführt werden sollen.
+<div style='text-align: justify;'>
+  Um diese unterschiedlichen Einflussfaktoren systematisch zusammenzuführen, haben wir mit einer **Multikriterienanalyse (MCDA)** gearbeitet. Dieser Ansatz eignet sich besonders dann, wenn mehrere räumliche Kriterien gleichzeitig berücksichtigt und zu einer gemeinsamen Bewertung zusammengeführt werden sollen.
+</div>
 
-Dafür wurden unterschiedliche räumliche Datensätze zusammengeführt, darunter landwirtschaftliche Schläge, Schutzgebiete, Hochwasserflächen, Siedlungsnähe, Verkehrsinfrastruktur und Bodengüte. Diese Informationen wurden so aufbereitet, dass sie räumlich vergleichbar und gemeinsam auswertbar sind.
+<div style='text-align: justify;'>
+  Dafür wurden unterschiedliche räumliche Datensätze zusammengeführt, darunter landwirtschaftliche Schläge, Schutzgebiete, Hochwasserflächen, Siedlungsnähe, Verkehrsinfrastruktur und Bodengüte. Diese Informationen wurden so aufbereitet, dass sie räumlich vergleichbar und gemeinsam auswertbar sind.
+</div>
 
 #### 1. Harte Ausschlusskriterien
 
