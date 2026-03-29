@@ -138,7 +138,7 @@ Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplar
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="85%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
@@ -167,7 +167,7 @@ Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise d
 
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="85%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Solar</em></div>
 
