@@ -90,7 +90,7 @@ Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfo
 
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="750">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Das müsste beim drübergehen kommen. Zweites Bild." alt="Dies ist beschreibung" width="750">
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 2: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 
@@ -108,8 +108,7 @@ Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und 
 </div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA_ohne_HG.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="690">
-
-*Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 #### 4. Aggregation auf Schlagebene
 <div align="justify">
@@ -139,13 +138,13 @@ Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in dies
   
 <img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" title="Das müsste beim drübergehen kommen." alt="Dies ist beschreibung" width="480">
 
-*Abbildung 3: Karte mit html.*
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen in Form der mindestens 1 ha großen landwirtschaftlichen Flächen. 
 
 <img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" title="Das müsste beim drübergehen kommen." alt="Dies ist beschreibung" width="480">
 
-*Abbildung 3: Karte mit html.*
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 
 Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene. 
@@ -155,7 +154,7 @@ Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise d
 
 <img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" title="Das müsste beim drübergehen kommen." alt="Dies ist beschreibung" width="480">
 
-*Abbildung 3: Karte mit html.*
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 6: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 
 Besonders relevant für die Praxis ist dann die Aggregation auf Schlagebene. Statt vieler kleiner Rasterzellen werden die Ergebnisse pro landwirtschaftlichem Schlag zusammengefasst. Dadurch entsteht eine deutlich besser lesbare Karte, aus der unmittelbar hervorgeht, welche Schläge innerhalb der Beispielsgemeinde insgesamt besonders gut geeignet sind. Die Bewertung wird damit von einer technischen Rasteranalyse in eine Form übersetzt, die für planerische Entscheidungen tatsächlich nutzbar ist. So könnten auch größere, zusammenhängende PV-FFA-Anlagen geplant werden, welche sich nicht ausschließlich aus den bestbewerteten Flächen zusammensetzen.
