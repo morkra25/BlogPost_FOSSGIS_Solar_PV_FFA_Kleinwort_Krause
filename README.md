@@ -85,7 +85,7 @@ Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfo
 </div>
 
 
-![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
+![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterien.png "Das ist ein Bild")
 *Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
 
 **HIER NACH 1 ha nochmal gucken, also wie selektieren wir?**
