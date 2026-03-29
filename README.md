@@ -190,6 +190,8 @@ Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass si
 **OBEN LINK!**
 **Bindestrcihe weg!**
 
+</div>
+
 ### *Literature*
 Umweltbundesamt. (2023). Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz
 UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).
