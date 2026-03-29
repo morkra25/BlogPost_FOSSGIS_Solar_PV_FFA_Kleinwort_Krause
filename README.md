@@ -138,13 +138,13 @@ Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplar
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen in Form der mindestens 1 ha großen landwirtschaftlichen Flächen. 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="85%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
@@ -154,7 +154,7 @@ Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.
 Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise der Nähe zu Stromleitungen ausgeht und wie kleinräumig sich die Bewertung im Raum unterscheidet.
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="85%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 6: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
