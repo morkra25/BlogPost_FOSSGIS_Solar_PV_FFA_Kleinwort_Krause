@@ -211,7 +211,6 @@ Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass si
 </div>
 
 ### *Literature*
-<div align="justify">
 <p>Umweltbundesamt. (2023). Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz </p>
 <p>UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).</p>
 <p>BUNDESNETZAGENTUR (BNetzA) (2026a): Ausbau erneuerbarer Energien 2025. https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260108_EEG.html (24.03.2026).</p>
@@ -219,4 +218,3 @@ Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass si
 <p>LANDESAMT FÜR GEOINFORMATION UND LANDESVERMESSUNG NIEDERSACHSEN (LGLN) (2026): Webdienste. https://ni-lgln-opengeodata.hub.arcgis.com/pages/geodatendienste (24.03.2026).</p>
 <p>UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).</p>
 <p>UMWELTBUNDESAMT (UBA) (2025): Photovoltaik-Freiflächenanlagen. https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/photovoltaik/photovoltaik-freiflaechenanlagen (24.03.2026).</p>
-</div>
