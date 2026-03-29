@@ -56,7 +56,7 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 <p>Übrig bleiben die landwirtschaftlichen Flächen, die grundsätzlich bebaut werden könnten.</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Die harten Kriterien." width="75%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Harte Kriterien" width="75%">
 
 *Abbildung 1: Harte Bewertungskriterien*
 
@@ -94,8 +94,8 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Das müsste beim drübergehen kommen. Zweites Bild." alt="Dies ist beschreibung" width= "100%">
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 2: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Weiche Bewertungskritieren und das allgemeine Bewertungsschema." alt="Dies ist beschreibung" width= "100%">
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 2: Weiche Bewertungskritieren und das allgemeine Bewertungsschema</em></div>
 
 
 **HIER NACH 1 ha nochmal gucken, also wie selektieren wir?**
@@ -108,8 +108,8 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width= "100%">
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA.png" title="Schematische Darstellung der Multilayer-Rasteranalyse" alt="Dies ist beschreibung" width= "100%">
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen (schematische Darstellung)</em></div>
 
 #### 4. Aggregation auf Schlagebene
 <div align="justify">
@@ -138,15 +138,16 @@ Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplar
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Bsp Karte" alt="Dies ist beschreibung" width="100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Beispiel eines Einzelkriteriums (Bodengüte)" alt="Beispiel eines Einzelkriteriums (hier Bodengüte)" width="75%">
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Beispiel eines Einzelkriteriums (hier Bodengüte)</em></div>
 
 Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen in Form der mindestens 1 ha großen landwirtschaftlichen Flächen. 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" alt="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" width="75%">
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
+
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen</em></div>
 
 
 Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene. 
@@ -154,22 +155,37 @@ Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.
 Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise der Nähe zu Stromleitungen ausgeht und wie kleinräumig sich die Bewertung im Raum unterscheidet.
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 6: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
+
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 6: Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
 <div align="justify">
 <p>Besonders relevant für die Praxis ist dann die Aggregation auf Schlagebene. Statt vieler kleiner Rasterzellen werden die Ergebnisse pro landwirtschaftlichem Schlag zusammengefasst. Dadurch entsteht eine deutlich besser lesbare Karte, aus der unmittelbar hervorgeht, welche Schläge innerhalb der Beispielsgemeinde insgesamt besonders gut geeignet sind. Die Bewertung wird damit von einer technischen Rasteranalyse in eine Form übersetzt, die für planerische Entscheidungen tatsächlich nutzbar ist. So könnten auch größere, zusammenhängende PV-FFA-Anlagen geplant werden, welche sich nicht ausschließlich aus den bestbewerteten Flächen zusammensetzen.</p>
 
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
+
+
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
+
+
+
 <p>Darauf aufbauend zeigt eine weitere Karte die fünf am besten bewerteten Flächen. Diese Auswahl macht die Ergebnisse noch konkreter, weil sie den Schritt von der allgemeinen Eignungsbewertung hin zu einer priorisierten Flächenkulisse vollzieht. So wird unmittelbar sichtbar, welche Standorte bspw. in einer Detailuntersuchung genauer betrachtet werden sollten.</p>
+
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Top-5-Auswahl von Beispiel-PV-FFA-Flächen" alt="Top-5-Auswahl von Beispiel-PV-FFA-Flächen" width="100%">
+
+
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 8: Top-5-Auswahl von Beispiel-PV-FFA-Flächen</em></div>
 
 <p>Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung je Feld. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären.</p>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp.png" title="Bsp Karte" alt="Dies ist beschreibung" width="90%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Jährliche Energieertragsschätzung" alt="Jährliche Energieertragsschätzung" width="100%">
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Solar</em></div>
+
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 9: Jährliche Energieertragsschätzung 
+</em></div>
 
 ---
 
