@@ -51,9 +51,9 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 #### 1. Harte Ausschlusskriterien
 
 <div align="justify">
-<p>Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Diese sind in der Abbildung aufgezählt. Unter Schutzgebiete fallen jegliche naturschutzrechtlichen Fläche wie bspw. Naturschutzgebiete, Vogelschutzgebiete und Natura 2000-Gebiete. Da die Pachtung bzw. der Erwerb eines Schlags mit einem bürokratischen Aufwand verbunden ist, werden außerdem nur landwirtschaftliche Schläge mit mindestens einem Hektar Fläche berücksichtigt.</p>
-
-Übrig bleiben die landwirtschaftlichen Flächen, die grundsätzlich bebaut werden könnten.
+Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Diese sind in der Abbildung aufgezählt. Unter Schutzgebiete fallen jegliche naturschutzrechtlichen Fläche wie bspw. Naturschutzgebiete, Vogelschutzgebiete und Natura 2000-Gebiete. Da die Pachtung bzw. der Erwerb eines Schlags mit einem bürokratischen Aufwand verbunden ist, werden außerdem nur landwirtschaftliche Schläge mit mindestens einem Hektar Fläche berücksichtigt.</div>
+<div align="justify">
+<p>Übrig bleiben die landwirtschaftlichen Flächen, die grundsätzlich bebaut werden könnten.</p>
 </div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Die harten Kriterien." width="640">

@@ -16,6 +16,6 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 
 title: [Blogpost von Teo Kleinwort und Moritz Krause (Universität Heidelberg)]
-description: [Seminar: GIS Analyses using Free and Open Source Software, WiSe 25/26]
+description: [Seminar "GIS Analyses using Free and Open Source Software", WiSe 25/26]
 
 remote_theme: pages-themes/slate@v0.2.0
