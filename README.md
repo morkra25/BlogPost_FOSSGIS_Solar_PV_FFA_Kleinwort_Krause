@@ -121,10 +121,11 @@ Für die Schläge wird abschließend noch der gemittelte potenzielle jährliche 
 #### 5. Automatisierter Workflow
 
 <div align="justify">
-Der gesamte Workflow ist skriptbasiert in Python umgesetzt und dadurch vollständig automatisiert. Bereits die Änderung des Gemeindenamens reicht aus, um Datenbeschaffung und Analyse für eine andere Gemeinde in Niedersachsen erneut durchzuführen.
+<p>Der gesamte Workflow ist skriptbasiert in Python umgesetzt und dadurch vollständig automatisiert. Bereits die Änderung des Gemeindenamens reicht aus, um Datenbeschaffung und Analyse für eine andere Gemeinde in Niedersachsen erneut durchzuführen.</p></div>
 
-Mit Ausnahme der Standorte von Umspannwerken und der HQ100-Hochwassergebiete werden alle benötigten Daten automatisiert über Schnittstellen (APIs) vom Landesamt für Geoinformation und Landesvermessung Niedersachsen bezogen (LGLN 2026). Dabei erkennt das Programm, welche Gemeinde untersucht wird und ruft die entsprechend benötigten Daten ab..
-
+<div align="justify">
+Mit Ausnahme der Standorte von Umspannwerken und der HQ100-Hochwassergebiete werden alle benötigten Daten automatisiert über Schnittstellen (APIs) vom Landesamt für Geoinformation und Landesvermessung Niedersachsen bezogen (LGLN 2026). Dabei erkennt das Programm, welche Gemeinde untersucht wird und ruft die entsprechend benötigten Daten ab. </div>
+<div align="justify">
 Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten steht keine moderne API-Schnittstelle zur Verfügung; sie werden daher lokal vorgehalten und automatisch passend für das jeweilige Untersuchungsgebiet zugeschnitten.
 </div>
 
@@ -169,25 +170,21 @@ Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung je Feld. Dam
 <img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" title="Das müsste beim drübergehen kommen." alt="Dies ist beschreibung" width="480">
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Solar</em></div>
+
 ---
 
 ## Conclusion
 
 <div align="justify">
-Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass sich die Standortsuche für Freiflächen-PV mit dem entwickelten Workflow deutlich systematischer und nachvollziehbarer gestalten lässt als durch rein manuelle Einzelfallanalysen. Durch die Kombination aus Ausschlusskriterien, abgestufter Bewertung und Aggregation auf Schlagebene entsteht ein transparenter und reproduzierbarer Ansatz, der auch für Laien nachvollziehbar macht, warum bestimmte Flächen besser geeignet sind als andere.
-</div>
+<p>
+Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass sich die Standortsuche für Freiflächen-PV mit dem entwickelten Workflow deutlich systematischer und nachvollziehbarer gestalten lässt als durch rein manuelle Einzelfallanalysen. Durch die Kombination aus Ausschlusskriterien, abgestufter Bewertung und Aggregation auf Schlagebene entsteht ein transparenter und reproduzierbarer Ansatz, der auch für Laien nachvollziehbar macht, warum bestimmte Flächen besser geeignet sind als andere.</p>
 
-<div align="justify">
-Besonders gelernt haben wir, dass der initiale Aufwand eines skriptbasierten Ansatzes zwar hoch ist, langfristig aber große Vorteile bietet. Der Workflow ist grundsätzlich auf andere Gemeinden übertragbar, Kriterien und Gewichtungen lassen sich flexibel anpassen, und auch eine automatische Kartengenerierung wäre problemlos möglich. Perspektivisch ließe sich das Tool weiter ausbauen, etwa durch eine eigene Bedienoberfläche oder Regler zur individuellen Gewichtung der Kriterien. Denkbar wäre sogar, unterschiedliche Vorgaben verschiedener Bundesländer direkt im Programm zu hinterlegen und den Workflow damit deutlich breiter nutzbar zu machen.
-</div>
+<p>Besonders gelernt haben wir, dass der initiale Aufwand eines skriptbasierten Ansatzes zwar hoch ist, langfristig aber große Vorteile bietet. Der Workflow ist grundsätzlich auf andere Gemeinden übertragbar, Kriterien und Gewichtungen lassen sich flexibel anpassen, und auch eine automatische Kartengenerierung wäre problemlos möglich. Perspektivisch ließe sich das Tool weiter ausbauen, etwa durch eine eigene Bedienoberfläche oder Regler zur individuellen Gewichtung der Kriterien. Denkbar wäre sogar, unterschiedliche Vorgaben verschiedener Bundesländer direkt im Programm zu hinterlegen und den Workflow damit deutlich breiter nutzbar zu machen.</p>
 
-<div align="justify">
-Gleichzeitig bestehen Grenzen. Datenqualität und Datenverfügbarkeit können regional stark variieren, und bislang stellen nur wenige Bundesländer ihre Daten über verlässliche API-Schnittstellen bereit. Niedersachsen gehört hier zu den wenigen Ländern, in denen dies ohne größere Workarounds möglich ist. Hinzu kommt, dass bei einzelnen Kriterien bewusst Vereinfachungen getroffen wurden, etwa bei Bahnstrecken, wo die EEG-Förderung eigentlich beispielsweise zwischen ein- und zweigleisigen Strecken unterscheidet. Zudem wurden die Gewichtungen im Projekt selbst festgelegt und könnten durch Expertenbefragungen und etablierte Gewichtungsverfahren fundierter bestimmt werden. Eine automatisierte Analyse ersetzt daher keine lokale Detailprüfung, sondern liefert vor allem eine fundierte Grundlage für weiterführende planerische Entscheidungen.
-</div>
 
-<div align="justify">
-Für die nächsten Schritte bieten sich mehrere Erweiterungen an. So könnte das Solarpotenzial künftig noch stärker an die jeweilige Umgebung angepasst werden, etwa durch einen differenzierten „Smog-Faktor“ je nach Umgebung. Auch weitere Kriterien wie Moorflächen mit Wiedervernässungspotenzial, insbesondere in Norddeutschland, oder Anwendungsfälle wie Agri-PV ließen sich integrieren. Insgesamt steckt in dem Ansatz noch viel Entwicklungspotenzial, weshalb wir uns gut vorstellen können, ihn auch über das Projekt hinaus weiter zu verfolgen.
-</div>
+<p> Gleichzeitig bestehen Grenzen. Datenqualität und Datenverfügbarkeit können regional stark variieren, und bislang stellen nur wenige Bundesländer ihre Daten über verlässliche API-Schnittstellen bereit. Niedersachsen gehört hier zu den wenigen Ländern, in denen dies ohne größere Workarounds möglich ist. Hinzu kommt, dass bei einzelnen Kriterien bewusst Vereinfachungen getroffen wurden, etwa bei Bahnstrecken, wo die EEG-Förderung eigentlich beispielsweise zwischen ein- und zweigleisigen Strecken unterscheidet. Zudem wurden die Gewichtungen im Projekt selbst festgelegt und könnten durch Expertenbefragungen und etablierte Gewichtungsverfahren fundierter bestimmt werden. Eine automatisierte Analyse ersetzt daher keine lokale Detailprüfung, sondern liefert vor allem eine fundierte Grundlage für weiterführende planerische Entscheidungen.</p>
+
+<p> Für die nächsten Schritte bieten sich mehrere Erweiterungen an. So könnte das Solarpotenzial künftig noch stärker an die jeweilige Umgebung angepasst werden, etwa durch einen differenzierten „Smog-Faktor“ je nach Umgebung. Auch weitere Kriterien wie Moorflächen mit Wiedervernässungspotenzial, insbesondere in Norddeutschland, oder Anwendungsfälle wie Agri-PV ließen sich integrieren. Insgesamt steckt in dem Ansatz noch viel Entwicklungspotenzial, weshalb wir uns gut vorstellen können, ihn auch über das Projekt hinaus weiter zu verfolgen. </p>
 
 
 **OBEN LINK!**
