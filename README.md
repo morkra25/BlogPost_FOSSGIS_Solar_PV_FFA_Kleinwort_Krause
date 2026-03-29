@@ -103,7 +103,8 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 
 #### 3. Rasterbasierte Gesamtbewertung
 <div align="justify">
-<p>Die eigentliche Bewertung erfolgte rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren Methodik-Dokumentation.<strong>HIER DANN LINK!!!!! **OBEN LINK!**</strong></p> 
+<p>Die eigentliche Bewertung erfolgte rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren <a href="https://github.com/morkra25/FOSSGIS_Solar_Project_Kleinwort_Krause/tree/main/Dokumentation">Methodik-Dokumentation.</a>
+<strong>LINK Aktualiseren!!!!!</strong></p> 
 
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
 </div>
