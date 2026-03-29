@@ -56,7 +56,7 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 <p>Übrig bleiben die landwirtschaftlichen Flächen, die grundsätzlich bebaut werden könnten.</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Die harten Kriterien." width="640">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Die harten Kriterien." width="75%">
 
 *Abbildung 1: Harte Bewertungskriterien*
 
@@ -65,26 +65,30 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 
 <div align="justify">
 
-Diese verbleibenden, potenziell bebaubaren Flächen werden anschließend anhand weicher Kriterien weiter differenziert bewertet. 
+  <p>Diese verbleibenden, potenziell bebaubaren Flächen werden anschließend anhand weicher Kriterien weiter differenziert bewertet.</p>
 
-Bevorzugt werden dabei Standorte:
+  <p>Bevorzugt werden dabei Standorte:</p>
 
-- mit geringer Hangneigung,
-- in der Nähe von Straßen, 
-- in der Nähe von Bahntrassen, 
-- in der Nähe von Ortslagen,
-- in der Nähe von Strominfrastruktur, also Hochspannungsleitungen und Umspannwerke.
+  <ul>
+    <li>mit geringer Hangneigung,</li>
+    <li>in der Nähe von Straßen,</li>
+    <li>in der Nähe von Bahntrassen,</li>
+    <li>in der Nähe von Ortslagen,</li>
+    <li>in der Nähe von Strominfrastruktur, also Hochspannungsleitungen und Umspannwerke.</li>
+  </ul>
 
-Das reduziert den Erschließungsaufwand und nutzt bereits vorgeprägte Räume, anstatt neue Landschaftsbereiche zusätzlich zu beanspruchen. 
+  <p>Das reduziert den Erschließungsaufwand und nutzt bereits vorgeprägte Räume, anstatt neue Landschaftsbereiche zusätzlich zu beanspruchen.</p>
 
-Die Nähe zur Strominfrastruktur ist dabei besonders wichtig, da ein Netzanschluss mit zunehmender Entfernung aufwendiger und teurer wird. Weil öffentlich zugängliche Daten zu konkreten Netzanschlusspunkten nur eingeschränkt verfügbar sind, wird dieser Aspekt neben der Nähe zu Umspannwerken näherungsweise eben auch über weitere bestehende Infrastrukturen wie Ortslagen und Bahnstrecken berücksichtigt, die auf vorhandene Strominfrastruktur schließen lassen.
+  <p>Die Nähe zur Strominfrastruktur ist dabei besonders wichtig, da ein Netzanschluss mit zunehmender Entfernung aufwendiger und teurer wird. Weil öffentlich zugängliche Daten zu konkreten Netzanschlusspunkten nur eingeschränkt verfügbar sind, wird dieser Aspekt neben der Nähe zu Umspannwerken näherungsweise eben auch über weitere bestehende Infrastrukturen wie Ortslagen und Bahnstrecken berücksichtigt, die auf vorhandene Strominfrastruktur schließen lassen.</p>
 
-Bevorzugt werden außerdem Standorte mit:
+  <p>Bevorzugt werden außerdem Standorte mit:</p>
 
-- einer geringen Bodengüte bzw. Ertragsfähigkeit,
-- einem hohen jährlichen Solarpotenzial.
+  <ul>
+    <li>einer geringen Bodengüte bzw. Ertragsfähigkeit,</li>
+    <li>einem hohen jährlichen Solarpotenzial.</li>
+  </ul>
 
-Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfolgend abgebildet. Die Gewichtungen der Kriterien wurden im Projekt selbst festgelegt und orientieren sich an vergleichbaren Ansätzen, insbesondere an HAUGER et al. (2025).
+  <p>Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfolgend abgebildet. Die Gewichtungen der Kriterien wurden im Projekt selbst festgelegt und orientieren sich an vergleichbaren Ansätzen, insbesondere an HAUGER et al. (2025).</p>
 
 </div>
 
@@ -104,7 +108,7 @@ Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfo
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width=100%>
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width= "100%">
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 #### 4. Aggregation auf Schlagebene
@@ -131,7 +135,7 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 <div align="justify">
 Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde Cuxhaven. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
 
-Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.  
+Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
 <img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" title="Das müsste beim drübergehen kommen." alt="Dies ist beschreibung" width="480">
 
@@ -156,23 +160,32 @@ Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise d
 
 Besonders relevant für die Praxis ist dann die Aggregation auf Schlagebene. Statt vieler kleiner Rasterzellen werden die Ergebnisse pro landwirtschaftlichem Schlag zusammengefasst. Dadurch entsteht eine deutlich besser lesbare Karte, aus der unmittelbar hervorgeht, welche Schläge innerhalb der Beispielsgemeinde insgesamt besonders gut geeignet sind. Die Bewertung wird damit von einer technischen Rasteranalyse in eine Form übersetzt, die für planerische Entscheidungen tatsächlich nutzbar ist. So könnten auch größere, zusammenhängende PV-FFA-Anlagen geplant werden, welche sich nicht ausschließlich aus den bestbewerteten Flächen zusammensetzen.
 
-Darauf aufbauend zeigt eine weitere Karte die fünf am besten bewerteten Flächen. Diese Auswahl macht die Ergebnisse noch konkreter, weil sie den Schritt von der allgemeinen Eignungsbewertung hin zu einer priorisierten Flächenkulisse vollzieht. So wird unmittelbar sichtbar, welche Standorte bspw. in einer Detailuntersuchung genauer betrachtet werden sollten.
+<p>Darauf aufbauend zeigt eine weitere Karte die fünf am besten bewerteten Flächen. Diese Auswahl macht die Ergebnisse noch konkreter, weil sie den Schritt von der allgemeinen Eignungsbewertung hin zu einer priorisierten Flächenkulisse vollzieht. So wird unmittelbar sichtbar, welche Standorte bspw. in einer Detailuntersuchung genauer betrachtet werden sollten.
 
 Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung je Feld. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären.
 
 </div>
 
+<img src="https://github.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/blob/main/images/karte.jpg?raw=true" title="Das müsste beim drübergehen kommen." alt="Dies ist beschreibung" width="480">
+
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Solar</em></div>
 ---
 
 ## Conclusion
 
 <div align="justify">
 Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass sich die Standortsuche für Freiflächen-PV mit dem entwickelten Workflow deutlich systematischer und nachvollziehbarer gestalten lässt als durch rein manuelle Einzelfallanalysen. Durch die Kombination aus Ausschlusskriterien, abgestufter Bewertung und Aggregation auf Schlagebene entsteht ein transparenter und reproduzierbarer Ansatz, der auch für Laien nachvollziehbar macht, warum bestimmte Flächen besser geeignet sind als andere.
+</div>
 
+<div align="justify">
 Besonders gelernt haben wir, dass der initiale Aufwand eines skriptbasierten Ansatzes zwar hoch ist, langfristig aber große Vorteile bietet. Der Workflow ist grundsätzlich auf andere Gemeinden übertragbar, Kriterien und Gewichtungen lassen sich flexibel anpassen, und auch eine automatische Kartengenerierung wäre problemlos möglich. Perspektivisch ließe sich das Tool weiter ausbauen, etwa durch eine eigene Bedienoberfläche oder Regler zur individuellen Gewichtung der Kriterien. Denkbar wäre sogar, unterschiedliche Vorgaben verschiedener Bundesländer direkt im Programm zu hinterlegen und den Workflow damit deutlich breiter nutzbar zu machen.
+</div>
 
+<div align="justify">
 Gleichzeitig bestehen Grenzen. Datenqualität und Datenverfügbarkeit können regional stark variieren, und bislang stellen nur wenige Bundesländer ihre Daten über verlässliche API-Schnittstellen bereit. Niedersachsen gehört hier zu den wenigen Ländern, in denen dies ohne größere Workarounds möglich ist. Hinzu kommt, dass bei einzelnen Kriterien bewusst Vereinfachungen getroffen wurden, etwa bei Bahnstrecken, wo die EEG-Förderung eigentlich beispielsweise zwischen ein- und zweigleisigen Strecken unterscheidet. Zudem wurden die Gewichtungen im Projekt selbst festgelegt und könnten durch Expertenbefragungen und etablierte Gewichtungsverfahren fundierter bestimmt werden. Eine automatisierte Analyse ersetzt daher keine lokale Detailprüfung, sondern liefert vor allem eine fundierte Grundlage für weiterführende planerische Entscheidungen.
+</div>
 
+<div align="justify">
 Für die nächsten Schritte bieten sich mehrere Erweiterungen an. So könnte das Solarpotenzial künftig noch stärker an die jeweilige Umgebung angepasst werden, etwa durch einen differenzierten „Smog-Faktor“ je nach Umgebung. Auch weitere Kriterien wie Moorflächen mit Wiedervernässungspotenzial, insbesondere in Norddeutschland, oder Anwendungsfälle wie Agri-PV ließen sich integrieren. Insgesamt steckt in dem Ansatz noch viel Entwicklungspotenzial, weshalb wir uns gut vorstellen können, ihn auch über das Projekt hinaus weiter zu verfolgen.
 </div>
 
