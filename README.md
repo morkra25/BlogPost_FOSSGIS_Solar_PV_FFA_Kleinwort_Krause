@@ -52,16 +52,12 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 
 </div>
 
-![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png "Das ist ein Bild")
-*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
 
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="480">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/harte_Krit_JPEG_2.jpg" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="600">
 
-
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/harte_Krit_JPEG_2.jpg" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="480">
-
+*Abbildung 1: Weiche Bewertungskriterien*
 
 
 #### 2. Weiche Bewertungskriterien
@@ -71,17 +67,19 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 Diese verbleibenden, potenziell bebaubaren Flächen werden anschließend anhand weicher Kriterien weiter differenziert bewertet. 
 
 Bevorzugt werden dabei Standorte:
+
 - mit geringer Hangneigung,
 - in der Nähe von Straßen, 
 - in der Nähe von Bahntrassen, 
 - in der Nähe von Ortslagen,
-- in der Nähe von Strominfrastruktur, also Hochspannungsleitungen und Umspannwerke. 
+- in der Nähe von Strominfrastruktur, also Hochspannungsleitungen und Umspannwerke.
 
 Das reduziert den Erschließungsaufwand und nutzt bereits vorgeprägte Räume, anstatt neue Landschaftsbereiche zusätzlich zu beanspruchen. 
 
 Die Nähe zur Strominfrastruktur ist dabei besonders wichtig, da ein Netzanschluss mit zunehmender Entfernung aufwendiger und teurer wird. Weil öffentlich zugängliche Daten zu konkreten Netzanschlusspunkten nur eingeschränkt verfügbar sind, wird dieser Aspekt neben der Nähe zu Umspannwerken näherungsweise eben auch über weitere bestehende Infrastrukturen wie Ortslagen und Bahnstrecken berücksichtigt, die auf vorhandene Strominfrastruktur schließen lassen.
 
-Bevorzugt werden außerdem Standorte mit: 
+Bevorzugt werden außerdem Standorte mit:
+
 - einer geringen Bodengüte bzw. Ertragsfähigkeit,
 - einem hohen jährlichen Solarpotenzial.
 
@@ -90,8 +88,11 @@ Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfo
 </div>
 
 
-![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterien.png "Das ist ein Bild")
-*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
+
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterien.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="690">
+
+*Abbildung 2: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
+
 
 **HIER NACH 1 ha nochmal gucken, also wie selektieren wir?**
 
@@ -106,8 +107,9 @@ Die eigentliche Bewertung erfolgte rasterbasiert. Ein Raster kann man sich dabei
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
 </div>
 
-![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png "Das ist ein Bild")
-*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="690">
+
+*Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
 
 #### 4. Aggregation auf Schlagebene
 <div align="justify">
