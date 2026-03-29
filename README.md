@@ -52,10 +52,15 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 
 </div>
 
-![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
+![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png "Das ist ein Bild")
 *Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
 
 
+
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="480">
+
+
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/harte_Krit_JPEG.jpg" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="480">
 
 
 
@@ -101,7 +106,7 @@ Die eigentliche Bewertung erfolgte rasterbasiert. Ein Raster kann man sich dabei
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
 </div>
 
-![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
+![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png "Das ist ein Bild")
 *Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
 
 #### 4. Aggregation auf Schlagebene
