@@ -1,4 +1,4 @@
-# Automatisierte Standortsuche für Freiflächen-PV
+# Automatisierte Freiflächen-PV-Standortsuche 
 
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
