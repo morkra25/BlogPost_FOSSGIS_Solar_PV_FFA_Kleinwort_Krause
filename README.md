@@ -55,7 +55,7 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Versuch_ohne_HG.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="620">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_harte_Kriterien.png" title="Die wichen Kriterien." alt="Dies ist beschreibung, also alt" width="620">
 
 *Abbildung 1: Harte Bewertungskriterien*
 
