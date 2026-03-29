@@ -3,30 +3,36 @@
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
 
-Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte, Verkehrsanbindung und Siedlungsnähe zeigt sich schnell, dass die Standortsuche eine komplexe planerische Abwägung ist. Da wäre es doch gut, wenn nicht jede Kommune ihre eigene Methode ausarbeiten müsste, um bei sich eine neue PV-Freiflächenanlage zu errichten, oder? Leider ist das aktuell immer noch so. Das wollen wir ändern. 
+<div style='text-align: justify;'>
+  Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte und Infrastrukturanbindung wird schnell deutlich, dass die Standortsuche eine komplexe planerische Abwägung erfordert. Umso sinnvoller wäre es, wenn nicht jede Kommune dafür eigene methodische Ansätze entwickeln müsste. Gegen-wärtig ist dies jedoch häufig noch der Fall. Ziel unseres Projekts ist es deshalb, diese frag-mentierte Vorgehensweise zu überwinden und eine übertragbare und automatisierte Metho-dik für die Planung von PV-Freiflächenanlagen (PV-FFA) zu entwickeln.
+</div>
 
-Denn der Ausbau der Photovoltaik ist ein zentraler Baustein der Energiewende in Deutsch-land. Ende 2025 waren bundesweit rund 117 GW PV-Leistung installiert; im Jahr 2025 wur-den rund 74 TWh Strom und damit rund 17 % der inländischen Stromproduktion durch Pho-tovoltaik erzeugt (*BUNDESNETZAGENTUR 2026b, 2026a*). Gleichzeitig sieht das EEG bis 2030 ein Ausbauziel von 215 GW vor, sodass in den kommenden Jahren ein weiterer deutli-cher Ausbau notwendig ist (UBA 2023). 
-Mit dem Ausbau steigt auch die Bedeutung einer gezielten räumlichen Steuerung. Ende 2024 waren in Deutschland bereits etwa 45.000 ha mit Photovoltaik-Freiflächenanlagen belegt, davon rund 15.200 ha auf Ackerflächen. Trotz eines Flächenanteils des Bundesgebiets von nur etwa 0,1 % zeigt sich, dass der Ausbau nicht konfliktfrei ist, da landwirtschaftliche Nut-zung, Energieproduktion, Naturschutz und planerische Vorgaben miteinander konkurrieren (UBA 2025).
+<div style='text-align: justify;'>
+Denn der Ausbau der Photovoltaik ist ein zentraler Baustein der Energiewende in Deutsch-land. Ende 2025 waren bundesweit rund 117 GW PV-Leistung installiert; im Jahr 2025 wur-den ca. 74 TWh Strom und damit etwa 17 % der inländischen Stromproduktion durch Photo-voltaik erzeugt (BNETZA 2026a, 2026b). Gleichzeitig sieht das EEG bis 2030 ein Ausbau-ziel von 215 GW vor, sodass in den kommenden Jahren ein weiterer deutlicher Ausbau not-wendig ist (UBA 2023). 
+</div>
 
-Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ih-res Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete land-wirtschaftliche Flächen für Freiflächen-PV systematisch identifizieren können. Eine GIS-gestützte Analyse eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und ent-sprechend transparent bei Planungs- und Entscheidungsprozessen unterstützen kann.
+<div style='text-align: justify;'>
+Zugleich werden PV-Module zunehmend effizienter und günstiger. Während im Jahr 2006 noch 4 ha pro MW installierter Leistung benötigt wurden, lag dieser Wert 2024 bereits bei unter 1 ha/MW (UBA 2025). Damit wird es auch für die Kommunen zunehmend attraktiver, Bauflächen für PV-FFA zu schaffen.
+</div>
+
+<div style='text-align: justify;'>
+Mit dem Ausbau steigt jedoch auch die Bedeutung einer gezielten räumlichen Steuerung. Ende 2024 waren in Deutschland bereits etwa 45.000 ha mit PV-FFA belegt, davon rund 15.200 ha auf Ackerflächen. Trotz eines Flächenanteils am Bundesgebiet von nur etwa 0,1 % zeigt sich, dass der Ausbau nicht konfliktfrei ist, da landwirtschaftliche Nutzung, Energie-produktion, Naturschutz und planerische Vorgaben miteinander konkurrieren (UBA 2025).
+Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingabe ih-res Gemeindenamens und gegebenenfalls ergänzt um eigene Anforderungen geeignete land-wirtschaftliche Flächen für Freiflächen-PV identifizieren können. Eine GIS-gestützte Analy-se eignet sich hierfür besonders, da sie datenbasiert, reproduzierbar und entsprechend trans-parent bei Planungs- und Entscheidungsprozessen unterstützen kann.
+</div>
 
 > **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
-
-![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
-*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
-
----
+> **Untersuchungsgebiet:** Viele rechtliche Vorgaben zur Errichtung von PV-FFA sind föderal strukturiert und damit in weiten Teilen Ländersache. Das Projekt wird daher exemplarisch für das Land Niedersach-sen durchgeführt.
 
 ## Method
 
 ### Vom Geodatensatz zur Eignungsbewertung
 
 <div style='text-align: justify;'>
-  Am Anfang stand die Frage, wie sich aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen ableiten lässt. Denn kein einzelner Datensatz kann allein beantworten, ob sich eine Fläche für Freiflächen-PV eignet. Erst im Zusammenspiel verschiedener Informationen wird sichtbar, welche Flächen grundsätzlich infrage kommen und welche aufgrund bestimmter Rahmenbedingungen ausgeschlossen oder schlechter bewertet werden sollten.
+ Am Anfang stellt sich die Frage, wie sich aus vielen einzelnen Geodaten am Ende eine nachvollziehbare PV-Eignungsbewertung für landwirtschaftliche Flächen ableiten lässt. Denn erst im Zusammenspiel verschiedener Informationen wird sichtbar, welche Flächen grundsätzlich infrage kommen und welche aufgrund bestimmter Rahmenbedingungen ausgeschlossen oder schlechter bewertet werden sollten. Um diese Einflussfaktoren systematisch zusammenzuführen, haben wir mit einer <strong>Multikriterienanalyse (MCDA)</strong> gearbeitet.Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 </div>
 
 <div style='text-align: justify;'>
-  Um diese unterschiedlichen Einflussfaktoren systematisch zusammenzuführen, haben wir mit einer **Multikriterienanalyse (MCDA)** gearbeitet. Dieser Ansatz eignet sich besonders dann, wenn mehrere räumliche Kriterien gleichzeitig berücksichtigt und zu einer gemeinsamen Bewertung zusammengeführt werden sollen.
+ Um diese unterschiedlichen Einflussfaktoren systematisch zusammenzuführen, haben wir mit einer  gearbeitet. Dieser Ansatz eignet sich besonders dann, wenn mehrere räumliche Kriterien gleichzeitig berücksichtigt und zu einer gemeinsamen Bewertung zusammengeführt werden sollen.
 </div>
 
 <div style='text-align: justify;'>
@@ -35,15 +41,18 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 
 #### 1. Harte Ausschlusskriterien
 
-Zunächst kommen harte Ausschlusskriterien zum Einsatz. Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Dazu zählen:
+<div style='text-align: justify;'>
+Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Diese sind in der Abbildung aufgezählt. Unter Schutzgebiete fallen jegliche naturschutzrechtlichen Fläche wie bspw. Naturschutzgebiete, Vogelschutzgebiete und Natura 2000-Gebiete. Da die Pachtung bzw. der Erwerb eines Schlags mit einem bürokratischen Aufwand verbunden ist, werden außerdem nur landwirtschaftliche Schläge mit mindestens einem Hektar Fläche berücksichtigt.
+</div>
 
-- Waldflächen mit Puffer
-- Hauptwirtschaftswege
-- Hochwasserflächen
-- Schutzgebiete
-- Wasserschutzgebiete der Zonen I und II
+![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
+*Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
+
+---
 
 Übrig bleiben die landwirtschaftlichen Flächen, die grundsätzlich bebaut werden könnten.
+
+
 
 #### 2. Weiche Bewertungskriterien
 
