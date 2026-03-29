@@ -22,9 +22,10 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 
 <div align="justify">
 
-> **Ziel des Projekts:** Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.
-
-> **Untersuchungsgebiet:** Viele rechtliche Vorgaben zur Errichtung von PV-FFA sind föderal strukturiert und damit in weiten Teilen Ländersache. Das Projekt wird daher exemplarisch für das Land Niedersachsen durchgeführt.
+<div style="border-left: 4px solid #b8b9ba; padding: 0.5em 1em; margin: 1em 0;">
+  <p style="margin: 0 0 0.75em 0;"><strong>Ziel des Projekts:</strong> Entwicklung eines GIS-basierten Workflows, mit dem geeignete landwirtschaftliche Schläge für Freiflächen-Photovoltaikanlagen automatisiert identifiziert werden können. Dafür werden relevante räumliche Kriterien zusammengeführt und so ausgewertet, dass potenziell geeignete Flächen nachvollziehbar ausgegeben werden.</p>
+  <p style="margin: 0;"><strong>Untersuchungsgebiet:</strong> Viele rechtliche Vorgaben zur Errichtung von PV-FFA sind föderal strukturiert und damit in weiten Teilen Ländersache. Das Projekt wird daher exemplarisch für das Land Niedersachsen durchgeführt.</p>
+</div>
 </div>
 
 ---
