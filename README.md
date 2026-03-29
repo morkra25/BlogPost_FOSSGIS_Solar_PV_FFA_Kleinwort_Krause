@@ -90,7 +90,7 @@ Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfo
 
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Das müsste beim drübergehen kommen. Zweites Bild." alt="Dies ist beschreibung" width="666">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Das müsste beim drübergehen kommen. Zweites Bild." alt="Dies ist beschreibung" width="650">
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 2: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 
@@ -107,7 +107,7 @@ Die eigentliche Bewertung erfolgte rasterbasiert. Ein Raster kann man sich dabei
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA_ohne_HG.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="666">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA_ohne_HG.png" title="Das müsste beim drübergehen kommen. Erstes Bild." alt="Dies ist beschreibung" width="655">
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)</em></div>
 
 #### 4. Aggregation auf Schlagebene
