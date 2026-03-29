@@ -88,6 +88,9 @@ Die individuellen Gewichtungen und das allgemeine Bewertungsschema werden nachfo
 ![Das ist das erste Bild](https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Bild2.jpg "Das ist ein Bild")
 *Abbildung 1: Rasterbasierte Eignungsbewertung der Flächen. (schematische Darstellung)*
 
+**HIER NACH 1 ha nochmal gucken, also wie selektieren wir?**
+
+
 #### 3. Rasterbasierte Gesamtbewertung
 <div align="justify">
 Die eigentliche Bewertung erfolgte rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren Methodik-Dokumentation. HIER DANN LINK!!!!!
