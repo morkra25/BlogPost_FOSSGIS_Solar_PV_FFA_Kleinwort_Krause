@@ -94,8 +94,8 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Weiche Bewertungskritieren und das allgemeine Bewertungsschema." alt="Dies ist beschreibung" width= "100%">
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 2: Weiche Bewertungskritieren und das allgemeine Bewertungsschema</em></div>
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_weiche_Kriterie_ohne_HG.png" title="Weiche Bewertungskriterien und das allgemeine Bewertungsschema." alt="Dies ist beschreibung" width= "100%">
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 2: Weiche Bewertungskriterien und das allgemeine Bewertungsschema</em></div>
 
 
 **HIER NACH 1 ha nochmal gucken, also wie selektieren wir?**
