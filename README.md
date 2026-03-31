@@ -101,7 +101,6 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 #### 3. Rasterbasierte Gesamtbewertung
 <div align="justify">
 <p>Die eigentliche Bewertung erfolgt rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren <a href="https://github.com/morkra25/FOSSGIS_Solar_Project_Kleinwort_Krause/tree/main/Dokumentation">Methodik-Dokumentation.</a>
-<strong>LINK Aktualiseren!!!!!</strong></p> 
 
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
 </div>
@@ -134,7 +133,9 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 
 ## Ergebnisse
 <div align="justify">
-Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde Cuxhaven. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
+Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde Dollern. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
+
+##### *Hinweis: aufgrund eines Serverausfalls konnten die den Karten zugrundeliegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden*.
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
@@ -194,11 +195,6 @@ Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass si
 <p> Gleichzeitig bestehen Grenzen. Datenqualität und Datenverfügbarkeit können regional stark variieren, und bislang stellen nur wenige Bundesländer ihre Daten über verlässliche API-Schnittstellen bereit. Niedersachsen gehört hier zu den wenigen Ländern, in denen dies ohne größere Workarounds möglich ist. Hinzu kommt, dass bei einzelnen Kriterien bewusst Vereinfachungen getroffen wurden, etwa bei Bahnstrecken, wo die EEG-Förderung eigentlich beispielsweise zwischen ein- und zweigleisigen Strecken unterscheidet. Zudem wurden die Gewichtungen im Projekt selbst festgelegt und könnten durch Expertenbefragungen und etablierte Gewichtungsverfahren fundierter bestimmt werden. Eine automatisierte Analyse ersetzt daher keine lokale Detailprüfung, sondern liefert vor allem eine fundierte Grundlage für weiterführende planerische Entscheidungen.</p>
 
 <p> Für die nächsten Schritte bieten sich mehrere Erweiterungen an. So könnte das Solarpotenzial künftig noch stärker an die jeweilige Umgebung angepasst werden, etwa durch einen differenzierten „Smog-Faktor“ je nach Umgebung. Auch weitere Kriterien wie Moorflächen mit Wiedervernässungspotenzial, insbesondere in Norddeutschland, oder Anwendungsfälle wie Agri-PV ließen sich integrieren. Insgesamt steckt in dem Ansatz noch viel Entwicklungspotenzial, weshalb wir uns gut vorstellen können, ihn auch über das Projekt hinaus weiter zu verfolgen. </p>
-
-
-**OBEN LINK!**
-**Bindestrcihe weg!**
-
 </div>
 
 ### *Literatur*
