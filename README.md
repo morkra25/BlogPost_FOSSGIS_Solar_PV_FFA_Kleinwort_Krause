@@ -30,7 +30,7 @@ Entsprechend wächst der Bedarf an einem Tool, mit dem Kommunen durch die Eingab
 
 ---
 
-## Method
+## Methodik
 
 ### Vom Geodatensatz zur Eignungsbewertung
 
@@ -132,7 +132,7 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 
 ---
 
-## Results
+## Ergebnisse
 <div align="justify">
 Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde Cuxhaven. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
 
@@ -182,7 +182,7 @@ Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise d
 
 ---
 
-## Conclusion
+## Zusammenfassung, Fazit und Ausblick
 
 <div align="justify">
 <p>
@@ -201,7 +201,7 @@ Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass si
 
 </div>
 
-### *Literature*
+### *Literatur*
 <p>Umweltbundesamt. (2023). Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz </p>
 <p>UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).</p>
 <p>BUNDESNETZAGENTUR (BNetzA) (2026a): Ausbau erneuerbarer Energien 2025. https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260108_EEG.html (24.03.2026).</p>
