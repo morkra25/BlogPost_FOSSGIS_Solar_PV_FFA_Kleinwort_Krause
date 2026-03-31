@@ -128,6 +128,7 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 ---
 
 ## Ergebnisse
+
 <div align="justify">
 <p>Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.</p>
 
