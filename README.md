@@ -99,12 +99,16 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 
 
 #### 3. Rasterbasierte Gesamtbewertung
+
 <div align="justify">
-<p>Die eigentliche Bewertung erfolgt rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren <a href="https://github.com/morkra25/FOSSGIS_Solar_Project_Kleinwort_Krause/tree/main/Dokumentation">Methodik-Dokumentation.</a> </p> 
+<p>Die eigentliche Bewertung erfolgt rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren <a href="https://github.com/morkra25/FOSSGIS_Solar_Project_Kleinwort_Krause/tree/main/Dokumentation">Methodik-Dokumentation</a>.</p>
+</div>
 
-Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert.</div>
+<div align="justify">
+<p>Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert.</p>
+</div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA.png" title="Schematische Darstellung der Multilayer-Rasteranalyse" alt="Dies ist beschreibung" width= "100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Abbildung_Raster_MCDA.png" title="Schematische Darstellung der Multilayer-Rasteranalyse" alt="Dies ist beschreibung" width="100%">
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 3: Rasterbasierte Eignungsbewertung der Flächen (schematische Darstellung)</em></div>
 
 #### 4. Aggregation auf Schlagebene
