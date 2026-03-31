@@ -131,7 +131,7 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 <div align="justify">
 <p>Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.</p>
 
-<h7><em>Hinweis: Aufgrund eines Serverausfalls konnten die den Karten zugrunde liegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.</em></h7>
+<p><h7><em>Hinweis: Aufgrund eines Serverausfalls konnten die den Karten zugrunde liegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.</em></h7></p>
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Nähe zu Straßen. Es wird sichtbar, wie ungleichmäßig die Kriterien über den Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
@@ -157,7 +157,7 @@ Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.</div>
 <div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 6: Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
 <div align="justify">
-<p>Besonders relevant für die Praxis ist dann die Aggregation auf Schlagebene. Statt vieler kleiner Rasterzellen werden die Ergebnisse pro landwirtschaftlichem Schlag zusammengefasst. Dadurch entsteht eine deutlich besser lesbare Karte, aus der unmittelbar hervorgeht, welche Schläge innerhalb der Beispielsgemeinde insgesamt besonders gut geeignet sind. Die Bewertung wird damit von einer technischen Rasteranalyse in eine Form übersetzt, die für planerische Entscheidungen tatsächlich nutzbar ist. So könnten auch größere, zusammenhängende PV-FFA-Anlagen geplant werden, welche sich nicht ausschließlich aus den bestbewerteten Flächen zusammensetzen.</p>
+<p>Besonders relevant für die Praxis ist dann die <strong>Aggregation auf Schlagebene</strong>. Statt vieler kleiner Rasterzellen werden die Ergebnisse pro landwirtschaftlichem Schlag zusammengefasst. Dadurch entsteht eine deutlich besser lesbare Karte, aus der unmittelbar hervorgeht, welche Schläge innerhalb der Beispielsgemeinde insgesamt besonders gut geeignet sind. Die Bewertung wird damit von einer technischen Rasteranalyse in eine Form übersetzt, die für planerische Entscheidungen tatsächlich nutzbar ist. So könnten auch größere, zusammenhängende PV-FFA-Anlagen geplant werden, welche sich nicht ausschließlich aus den bestbewerteten Flächen zusammensetzen.</p>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_aggregierte_Bewertung.png" title="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
 
