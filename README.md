@@ -135,7 +135,7 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 <div align="justify">
 Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde Dollern. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
 
-##### *Hinweis: aufgrund eines Serverausfalls konnten die den Karten zugrundeliegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden*.
+###### *Hinweis: aufgrund eines Serverausfalls konnten die den Karten zugrundeliegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden*.
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
