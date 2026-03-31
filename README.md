@@ -116,7 +116,7 @@ Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und 
 <div align="justify">
 Da für die Planung nicht das einzelne Pixel, sondern der landwirtschaftliche Schlag entscheidend ist, wurden die rasterbasierten Ergebnisse anschließend auf Schlagebene gemittelt.
 
-Für die Schläge wird abschließend noch der gemittelte potenzielle jährliche Energieertrag abgeschätzt. 
+Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell geeigneten Schlag ein vereinfachter jährlicher Energieertrag abgeschätzt. Grundlage ist die aufsum-mierte jährliche Einstrahlungsmenge aus der Solarpotenzialanalyse, die mit einem Flächen-korrekturfaktor, einem Modulwirkungsgrad und einem Aufständerungsfaktor verrechnet werden und so die erwartbare jährliche Energie in MWh als zusätzliches Attribut den bewer-teten Flächen zugewiesen werden kann.  
 </div>
 
 #### 5. Automatisierter Workflow
