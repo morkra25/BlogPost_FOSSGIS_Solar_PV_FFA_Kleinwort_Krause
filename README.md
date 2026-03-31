@@ -51,7 +51,7 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 #### 1. Harte Ausschlusskriterien
 
 <div align="justify">
-Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Diese sind in der Abbildung aufgezählt. Unter Schutzgebiete fallen jegliche naturschutzrechtlichen Fläche wie bspw. Naturschutzgebiete, Vogelschutzgebiete und Natura 2000-Gebiete. Da die Pachtung bzw. der Erwerb eines Schlags mit einem bürokratischen Aufwand verbunden ist, werden außerdem nur landwirtschaftliche Schläge mit mindestens einem Hektar Fläche berücksichtigt.</div>
+Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Diese sind in der Abbildung aufgezählt. Unter Schutzgebiete fallen jegliche naturschutzrechtlichen Fläche wie bspw. Naturschutzgebiete, Vogelschutzgebiete und Natura 2000-Gebiete.</div>
 <div align="justify">
 <p>Übrig bleiben die landwirtschaftlichen Flächen, die grundsätzlich bebaut werden könnten.</p>
 </div>
@@ -98,12 +98,9 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 2: Weiche Bewertungskriterien und das allgemeine Bewertungsschema</em></div>
 
 
-**HIER NACH 1 ha nochmal gucken, also wie selektieren wir?**
-
-
 #### 3. Rasterbasierte Gesamtbewertung
 <div align="justify">
-<p>Die eigentliche Bewertung erfolgte rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren <a href="https://github.com/morkra25/FOSSGIS_Solar_Project_Kleinwort_Krause/tree/main/Dokumentation">Methodik-Dokumentation.</a>
+<p>Die eigentliche Bewertung erfolgt rasterbasiert. Ein Raster kann man sich dabei wie ein Schachbrettmuster vorstellen: Die Untersuchungsfläche wird in viele kleine, gleich große, quadratische Felder unterteilt, und jedes Feld erhält für die jeweiligen Kriterien einen Wert zwischen 1 (sehr schlecht geeignet) und 5 (sehr gut geeignet), welcher die PV-Eignung detailliert beschreibt. Die genauen Bewertungszuordnungen finden sich im Anhang der ausführlicheren <a href="https://github.com/morkra25/FOSSGIS_Solar_Project_Kleinwort_Krause/tree/main/Dokumentation">Methodik-Dokumentation.</a>
 <strong>LINK Aktualiseren!!!!!</strong></p> 
 
 Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und unter Berücksichtigung der Gewichtungsfaktoren miteinander gemittelt. Das Ergebnis ist ein Wert zwischen 1 und 5, der die Gesamtbewertung repräsentiert. 
@@ -115,6 +112,8 @@ Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und 
 #### 4. Aggregation auf Schlagebene
 <div align="justify">
 Da für die Planung nicht das einzelne Pixel, sondern der landwirtschaftliche Schlag entscheidend ist, wurden die rasterbasierten Ergebnisse anschließend auf Schlagebene gemittelt.
+
+Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtig, welche mit mind. **1 ha an PV-Fläche** bestückt werden können.
 
 Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell geeigneten Schlag ein vereinfachter jährlicher Energieertrag abgeschätzt. Grundlage ist die aufsum-mierte jährliche Einstrahlungsmenge aus der Solarpotenzialanalyse, die mit einem Flächen-korrekturfaktor, einem Modulwirkungsgrad und einem Aufständerungsfaktor verrechnet werden und so die erwartbare jährliche Energie in MWh als zusätzliches Attribut den bewer-teten Flächen zugewiesen werden kann.  
 </div>
@@ -143,7 +142,7 @@ Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in dies
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Beispiel eines Einzelkriteriums (hier Bodengüte)</em></div>
 
-Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen in Form der mindestens 1 ha großen landwirtschaftlichen Flächen. 
+Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen, also den landwirtschaftlichen Flächen. 
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" alt="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" width="75%">
 
