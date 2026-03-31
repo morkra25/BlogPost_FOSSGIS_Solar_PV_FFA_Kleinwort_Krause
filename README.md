@@ -115,7 +115,7 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 <div align="justify">
 Da für die Planung nicht das einzelne Pixel, sondern der landwirtschaftliche Schlag entscheidend ist, wurden die rasterbasierten Ergebnisse anschließend auf Schlagebene gemittelt.
 
-Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtigt, welche mit mind. **1 ha an PV-Fläche** bestückt werden können.
+Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtigt, welche mit mind. <strong>1 ha an PV-Fläche</strong> bestückt werden können.
 
 Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell geeigneten Schlag ein vereinfachter jährlicher Energieertrag abgeschätzt. Grundlage ist die aufsummierte jährliche Einstrahlungsmenge aus der Solarpotenzialanalyse, die mit einem Flächenkorrekturfaktor, einem Modulwirkungsgrad und einem Aufständerungsfaktor verrechnet wird und so den bewerteten Flächen als zusätzliches Attribut in Form der erwartbaren jährlichen Energie in MWh zugewiesen werden kann.
 </div>
@@ -137,7 +137,7 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 <div align="justify">
 Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
 
-###### *Hinweis: Aufgrund eines Serverausfalls konnten die den Karten zugrunde liegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.*
+##### <em>Hinweis: Aufgrund eines Serverausfalls konnten die den Karten zugrunde liegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.</em>
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Nähe zu Straßen. Es wird sichtbar, wie ungleichmäßig die Kriterien über den Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
