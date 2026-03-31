@@ -109,7 +109,7 @@ Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Fläche
 <div align="justify">
 Da für die Planung nicht das einzelne Pixel, sondern der landwirtschaftliche Schlag entscheidend ist, wurden die rasterbasierten Ergebnisse anschließend auf Schlagebene gemittelt.
 
-Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtigt, welche mit mind. <strong>1 ha an PV-Fläche</strong> bestückt werden können.
+Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtigt, welche mit mindestens <strong>1 ha an PV-Fläche</strong> bestückt werden können.
 
 Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell geeigneten Schlag ein vereinfachter jährlicher Energieertrag abgeschätzt. Grundlage ist die aufsummierte jährliche Einstrahlungsmenge aus der Solarpotenzialanalyse, die mit einem Flächenkorrekturfaktor, einem Modulwirkungsgrad und einem Aufständerungsfaktor verrechnet wird und so den bewerteten Flächen als zusätzliches Attribut in Form der erwartbaren jährlichen Energie in MWh zugewiesen werden kann.
 </div>
