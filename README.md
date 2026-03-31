@@ -133,9 +133,9 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 
 ## Ergebnisse
 <div align="justify">
-Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde Dollern. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
+Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
 
-###### *Hinweis: aufgrund eines Serverausfalls konnten die den Karten zugrundeliegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden*.
+###### *Hinweis: aufgrund eines Serverausfalls konnten die den Karten zugrundeliegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.*
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
@@ -151,15 +151,12 @@ Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Ne
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen</em></div>
 
 
-Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene. 
+Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.
 
 Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise der Nähe zu Stromleitungen ausgeht und wie kleinräumig sich die Bewertung im Raum unterscheidet.
 
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
-
-
-
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 6: Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
