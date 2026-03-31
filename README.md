@@ -145,17 +145,17 @@ Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in dies
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Beispiel eines Einzelkriteriums (Nähe zu Straßen)</em></div>
 
-Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen, also den landwirtschaftlichen Flächen. 
+<div align="justify">
+Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen, also den landwirtschaftlichen Flächen.</div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Abzugslogik.png" title="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" alt="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" width="75%">
 
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen</em></div>
 
-
-Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.
-
-Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise der Nähe zu Stromleitungen ausgeht und wie kleinräumig sich die Bewertung im Raum unterscheidet.
+<div align="justify">
+Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.</div>
+<div align="justify">Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise der Nähe zu Stromleitungen ausgeht und wie kleinräumig sich die Bewertung im Raum unterscheidet.</div>
 
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Pixelbewertung.png" title="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
