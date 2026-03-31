@@ -129,15 +129,15 @@ Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten s
 
 ## Ergebnisse
 <div align="justify">
-Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
+<p>Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.</p>
 
-<h5><em>Hinweis: Aufgrund eines Serverausfalls konnten die den Karten zugrunde liegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.</em></h5>
+<h7><em>Hinweis: Aufgrund eines Serverausfalls konnten die den Karten zugrunde liegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.</em></h7>
 
 Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Nähe zu Straßen. Es wird sichtbar, wie ungleichmäßig die Kriterien über den Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Bsp_Strassen.png" title="Beispiel eines Einzelkriteriums (Bodengüte)" alt="Beispiel eines Einzelkriteriums (hier Bodengüte)" width="75%">
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Beispiel eines Einzelkriteriums (Nähe zu Straßen)</em></div>
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 4: Beispiel eines Einzelkriteriums (Nähe zu Straßen)</em></div>
 
 <div align="justify">
 Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen, also den landwirtschaftlichen Flächen.</div>
@@ -145,7 +145,7 @@ Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Ne
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Abzugslogik.png" title="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" alt="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" width="75%">
 
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen</em></div>
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 5: Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen</em></div>
 
 <div align="justify">
 Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.</div>
@@ -154,7 +154,7 @@ Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.</div>
 
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Pixelbewertung.png" title="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 6: Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 6: Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
 <div align="justify">
 <p>Besonders relevant für die Praxis ist dann die Aggregation auf Schlagebene. Statt vieler kleiner Rasterzellen werden die Ergebnisse pro landwirtschaftlichem Schlag zusammengefasst. Dadurch entsteht eine deutlich besser lesbare Karte, aus der unmittelbar hervorgeht, welche Schläge innerhalb der Beispielsgemeinde insgesamt besonders gut geeignet sind. Die Bewertung wird damit von einer technischen Rasteranalyse in eine Form übersetzt, die für planerische Entscheidungen tatsächlich nutzbar ist. So könnten auch größere, zusammenhängende PV-FFA-Anlagen geplant werden, welche sich nicht ausschließlich aus den bestbewerteten Flächen zusammensetzen.</p>
@@ -162,7 +162,7 @@ Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.</div>
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_aggregierte_Bewertung.png" title="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
 
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 7: Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
 <p>Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung der Felder in MWh pro Hektar. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären. In den Daten kann auch der absolute Wert abgelesen werden. Werte von rund 1000 MWh/ha entsprechen gängigen Erwartungswerten (vgl. MÜNCHNER SOLARKRAFTWERKE 2024). </p>
 
@@ -171,7 +171,7 @@ Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.</div>
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Ertragsabschätzung.png" title="Jährliche Energieertragsschätzung" alt="Jährliche Energieertragsschätzung" width="100%">
 
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 8: Jährliche Energieertragsschätzung 
+<div style="font-size: 0.85em; margin-top: 0; margin-bottom: 1.2em; padding-top: 0;"><em>Abbildung 8: Jährliche Energieertragsschätzung 
 </em></div>
 
 ---
