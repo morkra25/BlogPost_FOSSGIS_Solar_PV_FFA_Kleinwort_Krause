@@ -3,7 +3,7 @@
 ## Warum die Suche nach PV-Flächen so wichtig und doch so schwierig ist
 
 <div align="justify">
-  Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte und Infrastrukturanbindung wird schnell deutlich, dass die Standortsuche eine komplexe planerische Abwägung erfordert. Umso sinnvoller wäre es, wenn nicht jede Kommune dafür eigene methodische Ansätze entwickeln müsste. Gegenwärtig ist dies jedoch häufig noch der Fall. 
+  Nicht jede sonnige Fläche ist automatisch ein guter PV-Standort. Zwischen Schutzgebieten, Hochwassergefahr, Bodengüte und Infrastrukturanbindung wird schnell klar, dass die Standortsuche eine komplexe planerische Abwägung erfordert. Umso sinnvoller wäre es, wenn nicht jede Kommune dafür eigene methodische Ansätze entwickeln müsste. Gegenwärtig ist dies jedoch häufig noch der Fall. 
   
   Ziel unseres Projekts ist es deshalb, diese fragmentierte Vorgehensweise zu überwinden und eine übertragbare und automatisierte Methodik für die Planung von PV-Freiflächenanlagen (PV-FFA) zu entwickeln.
 </div>
@@ -41,7 +41,7 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 </div>
 
 <div align="justify">
- Um diese unterschiedlichen Einflussfaktoren systematisch zusammenzuführen, haben wir mit einer  gearbeitet. Dieser Ansatz eignet sich besonders dann, wenn mehrere räumliche Kriterien gleichzeitig berücksichtigt und zu einer gemeinsamen Bewertung zusammengeführt werden sollen.
+ Dieser Ansatz eignet sich besonders dann, wenn mehrere räumliche Kriterien gleichzeitig berücksichtigt und zu einer gemeinsamen Bewertung zusammengeführt werden sollen.
 </div>
 
 <div align="justify">
@@ -51,7 +51,7 @@ Zur Bewertung wurden zwei Arten von Kriterien abgeleitet.
 #### 1. Harte Ausschlusskriterien
 
 <div align="justify">
-Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Diese sind in der Abbildung aufgezählt. Unter Schutzgebiete fallen jegliche naturschutzrechtlichen Fläche wie bspw. Naturschutzgebiete, Vogelschutzgebiete und Natura 2000-Gebiete.</div>
+Zunächst kommen harte Ausschlusskriterien zum Einsatz: Sie filtern alle Flächen heraus, die für Freiflächen-PV rechtlich, ökologisch oder praktisch nicht infrage kommen. Diese sind in der Abbildung aufgezählt. Zu den Schutzgebieten zählen sämtliche naturschutzrechtlich geschützten Flächen wie bspw. Naturschutzgebiete, Vogelschutzgebiete und Natura 2000-Gebiete.</div>
 <div align="justify">
 <p>Übrig bleiben die landwirtschaftlichen Flächen, die grundsätzlich bebaut werden könnten.</p>
 </div>
@@ -114,7 +114,7 @@ Da für die Planung nicht das einzelne Pixel, sondern der landwirtschaftliche Sc
 
 Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtigt, welche mit mind. **1 ha an PV-Fläche** bestückt werden können.
 
-Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell geeigneten Schlag ein vereinfachter jährlicher Energieertrag abgeschätzt. Grundlage ist die aufsum-mierte jährliche Einstrahlungsmenge aus der Solarpotenzialanalyse, die mit einem Flächen-korrekturfaktor, einem Modulwirkungsgrad und einem Aufständerungsfaktor verrechnet werden und so die erwartbare jährliche Energie in MWh als zusätzliches Attribut den bewer-teten Flächen zugewiesen werden kann.  
+Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell geeigneten Schlag ein vereinfachter jährlicher Energieertrag abgeschätzt. Grundlage ist die aufsummierte jährliche Einstrahlungsmenge aus der Solarpotenzialanalyse, die mit einem Flächenkorrekturfaktor, einem Modulwirkungsgrad und einem Aufständerungsfaktor verrechnet wird und so den bewerteten Flächen als zusätzliches Attribut in Form der erwartbaren jährlichen Energie in MWh zugewiesen werden kann.
 </div>
 
 #### 5. Automatisierter Workflow
@@ -123,21 +123,20 @@ Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell ge
 <p>Der gesamte Workflow ist skriptbasiert in Python umgesetzt und dadurch vollständig automatisiert. Bereits die Änderung des Gemeindenamens reicht aus, um Datenbeschaffung und Analyse für eine andere Gemeinde in Niedersachsen erneut durchzuführen.</p></div>
 
 <div align="justify">
-Mit Ausnahme der Umspannwerke, der HQ100-Hochwassergebiete und der Wasserschutz-gebiete werden alle Daten automatisiert über Schnittstellen (APIs) vom Landesamt für Geoinformation und Landesvermessung Niedersachsen bezogen (LGLN 2026). Dabei er-kennt das Programm, welche Gemeinde untersucht wird und ruft die entsprechend benötig-ten Daten ab. </div>
+Mit Ausnahme der Umspannwerke, der HQ100-Hochwassergebiete und der Wasserschutzgebiete werden alle Daten automatisiert über Schnittstellen (APIs) vom Landesamt für Geoinformation und Landesvermessung Niedersachsen bezogen (LGLN 2026). Dabei erkennt das Programm, welche Gemeinde untersucht wird und ruft die entsprechend benötigten Daten ab. </div>
 <div align="justify">
-Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten sowie für die Wasserschutzgebiete stehen keine API-Schnittstelle zur Verfügung; sie werden daher lokal vorgehalten und automatisch passend für das jeweilige Untersuchungsgebiet zuge-schnitten.
+Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten sowie für die Wasserschutzgebiete stehen keine API-Schnittstellen zur Verfügung; sie werden daher lokal vorgehalten und automatisch passend für das jeweilige Untersuchungsgebiet zugeschnitten.
 </div>
-
 
 ---
 
 ## Ergebnisse
 <div align="justify">
-Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielsgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
+Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplarisch an der Beispielgemeinde <strong>Dollern</strong>. So lässt nachvollziehen, wie aus vielen einzelnen Geodaten am Ende eine nachvollziehbare Eignungsbewertung für landwirtschaftliche Flächen entsteht.
 
-###### *Hinweis: aufgrund eines Serverausfalls konnten die den Karten zugrundeliegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.*
+###### *Hinweis: Aufgrund eines Serverausfalls konnten die den Karten zugrunde liegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.*
 
-Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Nähe zu Straßen. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
+Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Nähe zu Straßen. Es wird sichtbar, wie ungleichmäßig die Kriterien über den Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Bsp_Strassen.png" title="Beispiel eines Einzelkriteriums (Bodengüte)" alt="Beispiel eines Einzelkriteriums (hier Bodengüte)" width="75%">
 
@@ -168,7 +167,7 @@ Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise d
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
-<p>Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung je Feld pro Hektar. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären. In den Daten kann auch der absolute Wert abgelesen werden. Die Werte rund um 1000 Mwh/ha entsprechen den gängigen Erwartungswerten (vgl. MÜNCHNER SOLARKRAFTWERKE 2024) </p>
+<p>Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung der Felder in MWh pro Hektar. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären. In den Daten kann auch der absolute Wert abgelesen werden. Werte von rund 1000 MWh/ha entsprechen gängigen Erwartungswerten (vgl. MÜNCHNER SOLARKRAFTWERKE 2024). </p>
 
 </div>
 
