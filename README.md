@@ -125,9 +125,9 @@ Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell ge
 <p>Der gesamte Workflow ist skriptbasiert in Python umgesetzt und dadurch vollständig automatisiert. Bereits die Änderung des Gemeindenamens reicht aus, um Datenbeschaffung und Analyse für eine andere Gemeinde in Niedersachsen erneut durchzuführen.</p></div>
 
 <div align="justify">
-Mit Ausnahme der Standorte von Umspannwerken und der HQ100-Hochwassergebiete werden alle benötigten Daten automatisiert über Schnittstellen (APIs) vom Landesamt für Geoinformation und Landesvermessung Niedersachsen bezogen (LGLN 2026). Dabei erkennt das Programm, welche Gemeinde untersucht wird und ruft die entsprechend benötigten Daten ab. </div>
+Mit Ausnahme der Umspannwerke, der HQ100-Hochwassergebiete und der Wasserschutz-gebiete werden alle Daten automatisiert über Schnittstellen (APIs) vom Landesamt für Geoinformation und Landesvermessung Niedersachsen bezogen (LGLN 2026). Dabei er-kennt das Programm, welche Gemeinde untersucht wird und ruft die entsprechend benötig-ten Daten ab. </div>
 <div align="justify">
-Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten steht keine moderne API-Schnittstelle zur Verfügung; sie werden daher lokal vorgehalten und automatisch passend für das jeweilige Untersuchungsgebiet zugeschnitten.
+Die Umspannwerke werden über die Overpass API abgefragt. Für die HQ100-Daten sowie für die Wasserschutzgebiete stehen keine API-Schnittstelle zur Verfügung; sie werden daher lokal vorgehalten und automatisch passend für das jeweilige Untersuchungsgebiet zuge-schnitten.
 </div>
 
 
@@ -171,15 +171,6 @@ Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise d
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
-
-
-<p>Darauf aufbauend zeigt eine weitere Karte die fünf am besten bewerteten Flächen. Diese Auswahl macht die Ergebnisse noch konkreter, weil sie den Schritt von der allgemeinen Eignungsbewertung hin zu einer priorisierten Flächenkulisse vollzieht. So wird unmittelbar sichtbar, welche Standorte bspw. in einer Detailuntersuchung genauer betrachtet werden sollten.</p>
-
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Top-5-Auswahl von Beispiel-PV-FFA-Flächen" alt="Top-5-Auswahl von Beispiel-PV-FFA-Flächen" width="100%">
-
-
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 8: Top-5-Auswahl von Beispiel-PV-FFA-Flächen</em></div>
-
 <p>Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung je Feld. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären.</p>
 
 </div>
@@ -187,7 +178,7 @@ Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise d
 <img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Jährliche Energieertragsschätzung" alt="Jährliche Energieertragsschätzung" width="100%">
 
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 9: Jährliche Energieertragsschätzung 
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 8: Jährliche Energieertragsschätzung 
 </em></div>
 
 ---
