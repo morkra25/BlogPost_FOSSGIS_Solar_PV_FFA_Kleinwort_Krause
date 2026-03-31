@@ -11,7 +11,7 @@
 <div align="justify">
 <p>Denn der Ausbau der Photovoltaik ist ein zentraler Baustein der Energiewende in Deutschland. Ende 2025 waren bundesweit rund 117 GW PV-Leistung installiert; im Jahr 2025 wurden ca. 74 TWh Strom und damit etwa 17 % der inländischen Stromproduktion durch Photovoltaik erzeugt (BNETZA 2026a, 2026b). 
 Gleichzeitig sieht das EEG bis 2030 ein Ausbauziel von 215 GW vor, sodass in den kommenden Jahren ein weiterer deutlicher Ausbau notwendig ist (UBA 2023).
-Zugleich werden PV-Module zunehmend effizienter und günstiger. Während im Jahr 2006 noch 4 ha pro MW installierter Leistung benötigt wurden, lag dieser Wert 2024 bereits bei unter 1 ha/MW (UBA 2025).   
+Zugleich werden PV-Module zunehmend effizienter und günstiger. Während im Jahr 2006 noch 4 ha pro MW installierter Leistung benötigt wurden, lag dieser Wert 2024 bereits bei unter 1 ha/MW (UBA 2025).
   Damit wird es auch für die Kommunen zunehmend attraktiver, Bauflächen für PV-FFA zu schaffen. </p>
 </div>
 
@@ -112,7 +112,7 @@ Die klassifizierten Raster werden anschließend vertikal „durchstochen“ und 
 <div align="justify">
 Da für die Planung nicht das einzelne Pixel, sondern der landwirtschaftliche Schlag entscheidend ist, wurden die rasterbasierten Ergebnisse anschließend auf Schlagebene gemittelt.
 
-Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtig, welche mit mind. **1 ha an PV-Fläche** bestückt werden können.
+Hier findet noch eine weitere, abschließende Filterung statt: da mit der Pachtung bzw. dem Kauf eines Schlags ein gewisser bürokratischer Aufwand einhergeht, werden in diesem Schritt nur jene Schläge berücksichtigt, welche mit mind. **1 ha an PV-Fläche** bestückt werden können.
 
 Zur Ergänzung der Eignungsbewertung wird abschließend für jeden potenziell geeigneten Schlag ein vereinfachter jährlicher Energieertrag abgeschätzt. Grundlage ist die aufsum-mierte jährliche Einstrahlungsmenge aus der Solarpotenzialanalyse, die mit einem Flächen-korrekturfaktor, einem Modulwirkungsgrad und einem Aufständerungsfaktor verrechnet werden und so die erwartbare jährliche Energie in MWh als zusätzliches Attribut den bewer-teten Flächen zugewiesen werden kann.  
 </div>
@@ -137,15 +137,15 @@ Um die Ergebnisse greifbar zu machen, veranschaulichen wir den Workflow exemplar
 
 ###### *Hinweis: aufgrund eines Serverausfalls konnten die den Karten zugrundeliegenden Berechnungen nicht mit den ALKIS-Bodenbewertungen durchgeführt werden. Daher sind auch keine genauen Wertbereiche angegeben.*
 
-Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Bodengüte. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
+Die erste Karte zeigt zunächst ein Beispiel eines einzelnen Kriteriums, in diesem Fall der Nähe zu Straßen. Es wird sichtbar, wie ungleichmäßig die Kriterien über den  Raum verteilt sind und entsprechend die Gesamtbewertung prägen können.</div>  
   
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Beispiel eines Einzelkriteriums (Bodengüte)" alt="Beispiel eines Einzelkriteriums (hier Bodengüte)" width="75%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Bsp_Strassen.png" title="Beispiel eines Einzelkriteriums (Bodengüte)" alt="Beispiel eines Einzelkriteriums (hier Bodengüte)" width="75%">
 
-<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Beispiel eines Einzelkriteriums (hier Bodengüte)</em></div>
+<div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 4: Beispiel eines Einzelkriteriums (Nähe zu Straßen)</em></div>
 
 Die nächste Karte veranschaulicht die Umsetzung des Abzugs der beschriebenen Negativflächen von den Positivflächen, also den landwirtschaftlichen Flächen. 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" alt="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" width="75%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Abzugslogik.png" title="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" alt="Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen" width="75%">
 
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 5: Abzug der nicht-bebaubaren Flächen von den landwirtschaftlichen Flächen</em></div>
@@ -156,23 +156,23 @@ Die erste konkrete Ergebniskarte zeigt die PV-FFA-Eignung auf Pixelebene.
 Hier wird deutlich, welcher Einfluss von einzelnen Faktoren wie beispielsweise der Nähe zu Stromleitungen ausgeht und wie kleinräumig sich die Bewertung im Raum unterscheidet.
 
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Pixelbewertung.png" title="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 6: Pixelweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
 <div align="justify">
 <p>Besonders relevant für die Praxis ist dann die Aggregation auf Schlagebene. Statt vieler kleiner Rasterzellen werden die Ergebnisse pro landwirtschaftlichem Schlag zusammengefasst. Dadurch entsteht eine deutlich besser lesbare Karte, aus der unmittelbar hervorgeht, welche Schläge innerhalb der Beispielsgemeinde insgesamt besonders gut geeignet sind. Die Bewertung wird damit von einer technischen Rasteranalyse in eine Form übersetzt, die für planerische Entscheidungen tatsächlich nutzbar ist. So könnten auch größere, zusammenhängende PV-FFA-Anlagen geplant werden, welche sich nicht ausschließlich aus den bestbewerteten Flächen zusammensetzen.</p>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_aggregierte_Bewertung.png" title="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" alt="Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA" width="100%">
 
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 7: Schlagweise Eignungsbewertung für eine Bebauung mit einer PV-FFA</em></div>
 
-<p>Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung je Feld. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären.</p>
+<p>Die letzte Karte zeigt außerdem die gemittelte Ertragsabschätzung je Feld pro Hektar. Damit zeigt die Analyse nicht nur, welche Flächen grundsätzlich geeignet sind, sondern auch, auf welchen Standorten besonders hohe Stromerträge zu erwarten wären. In den Daten kann auch der absolute Wert abgelesen werden. Die Werte rund um 1000 Mwh/ha entsprechen den gängigen Erwartungswerten (vgl. MÜNCHNER SOLARKRAFTWERKE 2024) </p>
 
 </div>
 
-<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Cuxhaven_Bsp_new.png" title="Jährliche Energieertragsschätzung" alt="Jährliche Energieertragsschätzung" width="100%">
+<img src="https://raw.githubusercontent.com/morkra25/BlogPost_FOSSGIS_Solar_PV_FFA_Kleinwort_Krause/refs/heads/main/images/Karte_Ertragsabschätzung.png" title="Jährliche Energieertragsschätzung" alt="Jährliche Energieertragsschätzung" width="100%">
 
 
 <div style="font-size: 0.85em; margin-top: 0; padding-top: 0;"><em>Abbildung 8: Jährliche Energieertragsschätzung 
@@ -195,10 +195,12 @@ Insgesamt zeigen unser Projekt und die Ergebnisse der Beispielsgemeinde, dass si
 </div>
 
 ### *Literatur*
-<p>Umweltbundesamt. (2023). Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz </p>
-<p>UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).</p>
+
+
 <p>BUNDESNETZAGENTUR (BNetzA) (2026a): Ausbau erneuerbarer Energien 2025. https://www.bundesnetzagentur.de/SharedDocs/Pressemitteilungen/DE/2026/20260108_EEG.html (24.03.2026).</p>
 <p>BUNDESNETZAGENTUR (BNetzA) (2026b): Bundesnetzagentur ver­öf­fent­licht Da­ten zum Strom­markt 2025. https://www.bundesnetzagentur.de/1087156 (24.03.2026).</p>
 <p>LANDESAMT FÜR GEOINFORMATION UND LANDESVERMESSUNG NIEDERSACHSEN (LGLN) (2026): Webdienste. https://ni-lgln-opengeodata.hub.arcgis.com/pages/geodatendienste (24.03.2026).</p>
+
+<p>MÜNCHNER SOLARKRAFTWERKE (2024): Solarpark Rendite: was Sie wissen müssen. https://muenchner-solarkraftwerke.de/solarpark-rendite/ (29.03.2024).</p>
 <p>UMWELTBUNDESAMT (UBA) (2023): Was sind die Kernelemente des Erneuerbare-Energien-Gesetzes? https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/erneuerbare-energien-gesetz (24.03.2026).</p>
 <p>UMWELTBUNDESAMT (UBA) (2025): Photovoltaik-Freiflächenanlagen. https://www.umweltbundesamt.de/themen/klima-energie/erneuerbare-energien/photovoltaik/photovoltaik-freiflaechenanlagen (24.03.2026).</p>
